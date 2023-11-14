@@ -1,0 +1,404 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*=========================top rede sociais================*/
+#box-cabecalho {
+    height: 50px;
+    background-color: #FFCB12;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.box_interna_header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#box-contato {
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+
+}
+
+#box-contato img,
+#rede-social img {
+    margin: auto 10px auto 0;
+    max-height: 50px;
+    min-height: 5px;
+    height: 70%;
+}
+
+#box-cabecalho p {
+
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(18px, 1vw, 5vw);
+    margin: auto 0;
+}
+
+
+
+/*=========================prestador de serviços================*/
+#box-prestador {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(-35deg, #E10E25, #F5571D);
+    display: flex;
+
+}
+
+#prestador {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(8px, 1em, 4em);
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    color: #FFCB12;
+}
+
+#prestador img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin {
+    margin: auto;
+}
+
+.foto-moto img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.foto-moto h2 {
+    font-size: clamp(8px, 3vw, 3.2vw);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    height: 50px;
+    color: #fff;
+    padding: 10px;
+    height: auto;
+
+}
+
+.foto-moto {
+    background-color: #F54C00;
+
+}
+
+.zap-verde {
+    height: 20px;
+    width: auto;
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    display: inline-flex;
+
+    height: auto;
+    background-color: #ffffff73;
+    padding: 3px;
+    border-radius: 6px;
+
+}
+
+.zap-verde img {
+    height: 40px;
+    width: auto;
+    margin: auto 0 auto 0;
+
+}
+
+.zap-verde p {
+    margin: auto 0 auto 0;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+}
+
+.qr-tel {
+    height: 20px;
+    width: auto;
+    position: fixed;
+    right: 30px;
+    bottom: 140px;
+    text-align: center;
+    height: auto;
+    background-color: #ffffff73;
+    padding: 3px;
+    border-radius: 6px;
+
+}
+
+.qr-tel:hover img {
+    width: 320px;
+    height: auto;
+    transition: all 2s;
+
+}
+
+.qr-tel a {
+    text-decoration: none;
+}
+
+.qr-tel:hover p {
+    display: block;
+    font-size: 24px;
+
+}
+
+.qr-tel:hover {
+    background-color: #fff;
+}
+
+.qr-tel:hover h3 {
+    display: none;
+    background-color: #450B0A;
+    width: 100%;
+    height: 100%;
+}
+
+.qr-tel h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+}
+
+.qr-tel img {
+    height: 40px;
+    width: auto;
+    margin: auto 0 auto 0;
+
+}
+
+.qr-tel p {
+    margin: auto 0 auto 0;
+    display: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+}
+
+/*============regiões============*/
+#regiao{
+   
+    text-align: center;
+}
+#regiao div{
+    width: 100%;
+    text-align: center;
+ 
+}
+#regiao p{
+    background-color: #450B0A;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+    padding: 8px;
+}
+#regiao img{
+    height: 50px;
+}
+#regiao #box-zonas{
+    max-width: 900px;
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    margin:  20px auto;
+    /*border: #333 solid;*/
+}
+#regiao .zonas{
+    height: 300px;
+    width: 150px;
+    margin: 10px auto;
+   
+}
+#regiao .zonas img{
+    height: 100%;
+    width: 100%;
+}
+
+#regiao .zonas p{
+    position: absolute;
+    margin: 20px 55px;
+    background-color: #d2d3d500;
+    font-size: 15px;
+}
+
+#regiao .zonas h3{
+    position: absolute;
+    margin: 180px 55px;
+    background-color: #d2d3d500;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+/*============section box-tres============*/
+#box-tres {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('./imagem/ondas.png'), radial-gradient(#6F4111, #450B0A);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+
+}
+
+#box-tres .h3 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+#box-tres h3 {
+    color: #fff;
+    font-size: clamp(24px, 3.2vw, 1.8em);
+    font-family: 'Outfit', sans-serif;
+}
+
+#box-tres .ligou img {
+    margin: 3em auto;
+
+    width: 100%;
+    min-width: 100px;
+    max-width: 550px;
+}
+
+#box-tres #telRed {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: #d2d3d5;
+
+}
+
+#box-tres #telRed img {
+
+    height: 30px;
+    margin: 10px 5px 10px 0;
+}
+
+#box-tres #telRed figure {
+    display: inline-flex;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#box-tres #telRed p {
+    margin: auto 0;
+    font-size: clamp(12px, 3.2vw, 1.8em);
+    font-family: 'Outfit', sans-serif;
+}
+#zap-verde img {
+    height: 40px;
+    width: auto;
+    margin: auto 0 auto 0;
+
+}
+
+
+#zap-verde { 
+    position: fixed;
+    display: none;
+    left: 20px;
+    bottom: 50px;
+}
+
+.iconRede {
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    z-index: 1;
+    height: auto;
+    padding: 3px;
+    border-radius: 6px;  
+    right: 30px;
+   
+}
+
+.iconRede img{
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+#botFechar {
+    width: 30px;
+    height: 30px;
+    color: #333;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    padding-top: 2px;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input,
+textarea {
+    padding: 16px;
+}
+
+input {
+    height: 40px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #25d366;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 48px;
+}
+
+button img {
+    margin-right: 8px;
+
+}
+
+a {
+    color: #25d366;
+}
+
+form{
+    width: 200px;
+    background-color: rgba(9, 78, 55, 0.596);
+    padding: 8px;
+    border-radius: 5px;
+}

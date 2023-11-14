@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bergamin Motoboy</title>
+</head>
+
+<body onload="carregar()">
+
+
+    <header>
+
+        <div id="box-cabecalho">
+
+            <div id="box-contato" class="box_interna_header">
+                <img src="./imagem/logo-zap-preta.png" alt="logo whatsapp">
+                <p><em>27 99996-3567</em> </p>
+            </div>
+
+            <div class="box_interna_header" id="rede-social">
+
+                <img src="./imagem/logo-face.png" alt="logo facebook">
+                <img src="./imagem/logo-insta.png" alt="logo instagram">
+                <img src="./imagem/logo-you.png" alt="logo youtube">
+
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <section>
+        <div id="box-prestador">
+            <div id="prestador">
+                <img src="./imagem/bergamin.png" alt="">
+                <h1><em>Prestador de Serviços</em></h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="foto-moto">
+            <picture>
+                <source media="(max-width:1400px )" srcset="./imagem/moto-gra.png" type="image/png">
+                <source media="(max-width:600px )" srcset="./imagem/moto-peq.png" type="image/png">
+                <img src="./imagem/moto_ext.jpg" alt="moto entrega">
+            </picture>
+            <h2>ENTREGA DE MALOTES - PEÇAS - ROUPAS - DOCUMENTOS</h2>
+        </div>
+        <div id="zap-verde">
+            <div id="botFechar" onclick="closedForm()">X</div>
+            <form method="get" onsubmit="abrirWhatsapp()">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required><br>
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required><br>
+                <input type="email" name="email" id="email" placeholder="E-mail" required><br>
+                <textarea name="msg" id="msg" placeholder="Mensagem" cols="30" rows="5" required></textarea><br>
+                <button type="submit"><img src="imagem/logo-zap-verde.png" alt="Icone Whatsapp"><span>Enviar
+                        dados p/ Whatsapp</span>
+            </form>
+
+        </div>
+
+        <div class="iconRede zap-verde" onclick="formulario()">
+
+            <img src="imagem/logo-zap-verde.png" alt="orçamento">
+
+        </div>
+        <div class="qr-tel">
+            <div id="box1">
+                <h3>Pix</h3>
+            </div>
+            <img src="imagem/qr-tel.png" alt="">
+            <br>
+            <p> pix: 2799996-3567</p>
+
+
+        </div>
+    </section>
+
+
+    <section id="regiao">
+        <div style="width: 100%;  ">
+            <p style="font-size: 18px; border-radius: 0 0 15px 15px; width: 300px; margin: 0 auto;">CARIACICA E REGIÃO <br><em style="font-size: 10px;">tabela por região</em></p>
+        </div>
+        <div id="box-zonas">
+            <!--
+<p>Vila Velha</p>
+                <h3>R$20,00
+                     <br>a <br>
+                    R$25,00</h3>
+            -->
+            <div class="zonas">
+
+                <img src="imagem/regiao1.png" alt="">
+            </div>
+            <div class="zonas">
+
+                <img src="imagem/regiao2.png" alt="">
+            </div>
+            <div class="zonas">
+
+                <img src="imagem/regiao3.png" alt="">
+            </div>
+            <div>
+                <h3>PREÇO MÍNIMO R$8,00</h3>
+            </div>
+        </div>
+        <div >
+            <p style="font-size: 12px; width: 100%; margin: 0 auto;">Aqui você tem certeza que a sua entrega vai chegar rápida, intacta e 100% segura ao destino final</p>
+           
+
+        </div>
+        <div style="flex-wrap: nowrap; background-color: #450B0A; font-size: 12px; width: 100%; text-align: center;">
+            <img src="./imagem/3.png" alt="selo de garantia" >
+
+            <p ><em>GARANTIA E QUALIDADE DOS SERVIÇOS APROVADOS</em> </p>
+
+        </div>
+
+    </section>
+
+    <section id="box-tres">
+
+        <figure class="ligou">
+            <img src="./imagem/ligou.png" alt="ligou">
+        </figure>
+
+
+        <div id="telRed">
+            <figure>
+                <img id="face" src="./imagem/face-cinza.png" alt="facebook" onmouseenter="trocaFace()"
+                    onmouseout="trocaFacecinza()">
+                <p id="para2">Facebook </p>
+
+            </figure>
+            <figure>
+                <img id="insta" src="./imagem/insta-cinza.png" alt="instagram" onmouseenter="trocaInsta()"
+                    onmouseout="trocaInstacinza()">
+                <p id="para1">Instagram </p>
+
+            </figure>
+            <figure>
+                <img src="./imagem/youtube-cinza.png" alt="youtube" id="tube" onmouseenter="trocaYoutube()"
+                    onmouseout="trocaYoutubecinza()">
+                <p id="redP1">Youtube</p>
+
+            </figure>
+        </div>
+
+    </section>
+
+
+</body>
+<script src="moto.js"></script>
+
+</html>
